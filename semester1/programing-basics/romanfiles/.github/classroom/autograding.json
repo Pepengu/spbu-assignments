@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test. Build 1",
+      "setup": "",
+      "run": "g++ ./toroman.cpp -o toroman -pedantic-errors",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test. Build 2",
+      "setup": "g++ ./romancalc.cpp -o romancalc -pedantic-errors",
+      "run": "! (grep -qwRE --include=*.{cc,cpp,h} '<vector>|<list>|<deque>|<set>|<map>|<string>|<algorithm>|<stack>|<queue>' ./* ) &&  (echo \"Build - OK\" )  || ( echo \"Forbiden STL containers\" && exit 9 )",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "./toroman tests/in/test1.txt output.txt && cmp -s output.txt tests/out/test1.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./toroman tests/in/test2.txt output.txt && cmp -s output.txt tests/out/test2.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./toroman tests/in/test3.txt output.txt && cmp -s output.txt tests/out/test3.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./toroman tests/in/test4.txt output.txt && cmp -s output.txt tests/out/test4.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./toroman tests/in/test5.txt test7.txt && cmp -s test7.txt tests/out/test5.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./toroman tests/in/test6.txt test8.txt && cmp -s test8.txt tests/out/test6.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./romancalc test7.txt out.txt && cmp -s out.txt tests/out/test7.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./romancalc test8.txt out.txt && cmp -s out.txt tests/out/test8.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

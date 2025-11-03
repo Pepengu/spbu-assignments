@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ collatz.cpp -o collatz -pedantic-errors",
+      "run": "./collatz",
+      "input": "3",
+      "output": "7 16",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./collatz",
+      "input": "19",
+      "output": "20 88",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./collatz",
+      "input": "27",
+      "output": "111 9232",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./collatz",
+      "input": "111",
+      "output": "69 9232",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./collatz",
+      "input": "1000",
+      "output": "111 9232",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./collatz",
+      "input": "1000000",
+      "output": "152 1000000",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./collatz",
+      "input": "1",
+      "output": "0 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

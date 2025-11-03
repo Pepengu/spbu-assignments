@@ -1,0 +1,28 @@
+Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages. 
+Numbers are written with combinations of letters from the Latin alphabet, each letter with a fixed integer value, modern style uses only these seven: 1 5 10 50 100 500 1000 
+The use of Roman numerals continued long after the decline of the Roman Empire. From the 14th century on, Roman numerals began to be replaced by Arabic numerals; however, this process was gradual, and the use of Roman numerals persists in some applications to this day.
+
+One place they are often seen is on clock faces. For instance, on the clock of Big Ben (designed in 1852), the hours from 1 to 12 are written as: 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12
+
+The notations 4 and 9 can be read as "one less than five" and "one less than ten", although there is a tradition favouring representation of "4" as "IIII" on Roman numeral clocks.
+
+Other common uses include year numbers on monuments and buildings and copyright dates on the title screens of movies and television programs. 
+1900 signifying "a thousand, and a hundred less than another thousand", so 1912 is written MCMXII. For the years of this century, MM indicates 2000. The current year is 2022 (MMXXII).
+
+A number containing two or more decimal digits is built by appending the Roman numeral equivalent for each, from highest to lowest, as in the following examples:
+  39 = 30 + 9 = XXXIX.
+ 246 = 200 + 40 + 6 = CCXLVI.
+ 789 = 700 + 80 + 9 = DCCLXXXIX.
+2421 = 2000 + 400 + 20 + 1 = MMCDXXI.
+
+Any missing place (represented by a zero in the place-value equivalent) is omitted, as in Latin (and English) speech:
+ 160 = 100 + 60 = CLX
+ 207 = 200 + 7 = CCVII
+1009 = 1000 + 9 = MIX
+1066 = 1000 + 60 + 6 = MLXVI
+
+In practice, Roman numerals for numbers over 1000 are currently used mainly for year numbers, as in these examples:
+1776 = 1000 + 700 + 70 + 6 = MDCCLXXVI (the date written on the book held by the Statue of Liberty).
+1918 = 1000 + 900 + 10 + 8 = MCMXVIII (the first year of the Spanish flu pandemic)
+1954 = 1000 + 900 + 50 + 4 = MCMLIV (as in the trailer for the movie The Last Time I Saw Paris)
+2014 = 2000 + 10 + 4 = MMXIV (the year of the games of the 22 (22nd) Olympic Winter Games (in Sochi, Russia))

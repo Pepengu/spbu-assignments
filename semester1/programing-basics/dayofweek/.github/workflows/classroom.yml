@@ -1,0 +1,33 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  grade:
+    name: Autograding
+    runs-on: gtest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: education/autograding@v1
+  cpp-linter:
+    needs: grade
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cpp-linter/cpp-linter-action@v2
+        id: linter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          style: ''
+          tidy-checks: ''
+          files-changed-only: false
+      - name: Fail fast?
+        if: steps.linter.outputs.checks-failed > 0
+        run: |
+          echo "Some files failed the linting checks!" && exit 1

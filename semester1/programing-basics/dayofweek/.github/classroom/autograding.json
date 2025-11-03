@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ dayofweek.cpp -o dayofweek",
+      "run": "./dayofweek",
+      "input": "31.10.2022",
+      "output": "Monday\n2025",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "1.11.2022",
+      "output": "Tuesday\n2024",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "02.11.2022",
+      "output": "Wednesday\n2029",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "03.11.2022",
+      "output": "Thursday\n2023",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "4.11.2022",
+      "output": "Friday\n2033",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "05.11.2022",
+      "output": "Saturday\n2027",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "06.11.2022",
+      "output": "Sunday\n2026",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Tets 8",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.2.2024",
+      "output": "Thursday\n2036",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "10.10.1969",
+      "output": "Friday\n1975",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "1.1.2023",
+      "output": "Sunday\n2027",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.02.2022",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.0.2022",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.2022",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "01-01-2022",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "01.xx.2022",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.02.1900",
+      "output": "Unknown",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "./dayofweek",
+      "input": "29.02.2000",
+      "output": "Tuesday\n2008",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

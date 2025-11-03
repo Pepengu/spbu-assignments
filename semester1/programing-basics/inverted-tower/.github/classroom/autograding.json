@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ ./tower.cpp -o tower -pedantic-errors",
+      "run": "./tower",
+      "input": "1",
+      "output": "1 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./tower",
+      "input": "2",
+      "output": "2 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./tower",
+      "input": "3",
+      "output": "2 2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./tower",
+      "input": "10",
+      "output": "5 2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./tower",
+      "input": "15",
+      "output": "7 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./tower",
+      "input": "18",
+      "output": "7 4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./tower",
+      "input": "23",
+      "output": "9 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./tower",
+      "input": "30",
+      "output": "10 4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./tower",
+      "input": "92",
+      "output": "22 1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./tower",
+      "input": "2000000000",
+      "output": "1650964 845",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

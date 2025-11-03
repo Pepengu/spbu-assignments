@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ ./snail.cpp -o snail -pedantic-errors",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-3-3.txt",
+      "input": "3 3",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-5-5.txt",
+      "input": "5 5",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-11-11.txt",
+      "input": "11 11",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-2-13.txt",
+      "input": "2 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-3-13.txt",
+      "input": "3 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-4-13.txt",
+      "input": "4 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-5-13.txt",
+      "input": "5 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-7-17.txt",
+      "input": "7 17",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-10-13.txt",
+      "input": "10 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-11-13.txt",
+      "input": "11 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-12-13.txt",
+      "input": "12 13",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-13-2.txt",
+      "input": "13 2",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-13-3.txt",
+      "input": "13 3",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-13-4.txt",
+      "input": "13 4",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-13-5.txt",
+      "input": "13 5",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-31-7.txt",
+      "input": "31 7",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "./snail > output.txt && cmp -s output.txt tests/output-31-19.txt",
+      "input": "31 19",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

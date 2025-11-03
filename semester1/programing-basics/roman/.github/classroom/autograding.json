@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ roman.cpp -o roman",
+      "run": "./roman",
+      "input": "1",
+      "output": "I",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./roman",
+      "input": "10",
+      "output": "X",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./roman",
+      "input": "3333",
+      "output": "MMMCCCXXXIII",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./roman",
+      "input": "1666",
+      "output": "MDCLXVI",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./roman",
+      "input": "1444",
+      "output": "MCDXLIV",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./roman",
+      "input": "499",
+      "output": "CDXCIX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./roman",
+      "input": "989",
+      "output": "CMLXXXIX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Tets 8",
+      "setup": "",
+      "run": "./roman",
+      "input": "3999",
+      "output": "MMMCMXCIX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./roman",
+      "input": "2022",
+      "output": "MMXXII",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./roman",
+      "input": "3880",
+      "output": "MMMDCCCLXXX",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

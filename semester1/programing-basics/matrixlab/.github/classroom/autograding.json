@@ -1,0 +1,214 @@
+{
+  "tests": [
+    {
+      "name": "Test 0. Build",
+      "setup": "g++ ./matrixlab.cpp -o matrixlab -pedantic-errors",
+      "run": "! (grep -qwRE --include=*.{cc,cpp,h} '<vector>|<list>|<deque>|<set>|<map>|<string>|<algorithm>|<stack>|<queue>' ./* ) &&  (echo \"Build - OK\" )  || ( echo \"Forbiden STL containers\" && exit 9 )",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/1matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/1det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/1matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/1inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/2matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/2det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/2matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/2inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/3matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/3det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/3matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/3inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/4matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/4det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/4matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/4inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/5matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/5det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/5matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/5inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/6matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/6det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/6matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/6inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/7matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/7det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/7matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/7inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/8matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/8det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/8matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/8inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 17",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/9matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/9det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 18",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/9matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/9inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 19",
+      "setup": "",
+      "run": "./matrixlab -det tests/in/10matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/10det.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 20",
+      "setup": "",
+      "run": "./matrixlab -inv tests/in/10matrix.txt output.txt && numdiff -a 1.0e-6 -q output.txt tests/out/10inv.txt",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

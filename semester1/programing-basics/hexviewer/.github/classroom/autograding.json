@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test. Build",
+      "setup": "",
+      "run": "g++ ./hexviewer.cpp -o hexviewer -pedantic-errors",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "./hexviewer tests/ex1.txt output.txt && cmp -s output.txt tests/ex1.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./hexviewer tests/ex2.jpg output.txt && cmp -s output.txt tests/ex2.jpg.hex",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./hexviewer tests/ex3.jpg output.txt && cmp -s output.txt tests/ex3.jpg.hex",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./hexviewer tests/ex4.txt output.txt && cmp -s output.txt tests/ex4.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./hexviewer tests/ex5.txt output.txt && cmp -s output.txt tests/ex5.txt.hex",
+      "input": "",
+      "output": "",
+      "comparison": "include",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

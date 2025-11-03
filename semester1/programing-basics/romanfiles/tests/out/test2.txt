@@ -1,0 +1,28 @@
+Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages. 
+Numbers are written with combinations of letters from the Latin alphabet, each letter with a fixed integer value, modern style uses only these seven: I V X L C D M 
+The use of Roman numerals continued long after the decline of the Roman Empire. From the 14th century on, Roman numerals began to be replaced by Arabic numerals; however, this process was gradual, and the use of Roman numerals persists in some applications to this day.
+
+One place they are often seen is on clock faces. For instance, on the clock of Big Ben (designed in MDCCCLII), the hours from I to XII are written as: I , II , III , IV , V , VI , VII , VIII , IX , X , XI , XII
+
+The notations IV and IX can be read as "one less than five" and "one less than ten", although there is a tradition favouring representation of "4" as "IIII" on Roman numeral clocks.
+
+Other common uses include year numbers on monuments and buildings and copyright dates on the title screens of movies and television programs. 
+MCM signifying "a thousand, and a hundred less than another thousand", so MCMXII is written MCMXII. For the years of this century, MM indicates 2000. The current year is MMXXII (MMXXII).
+
+A number containing two or more decimal digits is built by appending the Roman numeral equivalent for each, from highest to lowest, as in the following examples:
+  XXXIX = XXX + IX = XXXIX.
+ CCXLVI = CC + XL + VI = CCXLVI.
+ DCCLXXXIX = DCC + LXXX + IX = DCCLXXXIX.
+MMCDXXI = MM + CD + XX + I = MMCDXXI.
+
+Any missing place (represented by a zero in the place-value equivalent) is omitted, as in Latin (and English) speech:
+ CLX = C + LX = CLX
+ CCVII = CC + VII = CCVII
+MIX = M + IX = MIX
+MLXVI = M + LX + VI = MLXVI
+
+In practice, Roman numerals for numbers over M are currently used mainly for year numbers, as in these examples:
+MDCCLXXVI = M + DCC + LXX + VI = MDCCLXXVI (the date written on the book held by the Statue of Liberty).
+MCMXVIII = M + CM + X + VIII = MCMXVIII (the first year of the Spanish flu pandemic)
+MCMLIV = M + CM + L + IV = MCMLIV (as in the trailer for the movie The Last Time I Saw Paris)
+MMXIV = MM + X + IV = MMXIV (the year of the games of the XXII (22nd) Olympic Winter Games (in Sochi, Russia))

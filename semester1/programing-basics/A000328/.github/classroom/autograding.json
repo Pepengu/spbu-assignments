@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ points.cpp -o points",
+      "run": "./points",
+      "input": "1",
+      "output": "5",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./points",
+      "input": "2",
+      "output": "13",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./points",
+      "input": "3",
+      "output": "29",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./points",
+      "input": "10",
+      "output": "317",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./points",
+      "input": "18",
+      "output": "1009",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./points",
+      "input": "99",
+      "output": "30757",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./points",
+      "input": "100",
+      "output": "31417",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Tets 8",
+      "setup": "",
+      "run": "./points",
+      "input": "1000",
+      "output": "3141549",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./points",
+      "input": "999999",
+      "output": "3141586368221",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Time test",
+      "setup": "",
+      "run": "APPRUNTIME=$({ /usr/bin/time -f \"%e\" ./points ; } 2>&1 >/dev/null) && echo \"Elapsed time: $APPRUNTIME sec\" ; echo \"$APPRUNTIME\" | awk '{if ($1 > 0.1) exit 5; else exit}' ",
+      "input": "999999",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

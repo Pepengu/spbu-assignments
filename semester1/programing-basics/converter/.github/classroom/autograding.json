@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ converter.cpp -o converter",
+      "run": "./converter",
+      "input": "1 16",
+      "output": "1",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "./converter",
+      "input": "1021 16",
+      "output": "3FD",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "./converter",
+      "input": "1021 8",
+      "output": "1775",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "./converter",
+      "input": "1021 2",
+      "output": "1111111101",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "./converter",
+      "input": "15 15",
+      "output": "10",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "./converter",
+      "input": "19128 12",
+      "output": "B0A0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "./converter",
+      "input": "2147483647 16",
+      "output": "7FFFFFFF",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Tets 8",
+      "setup": "",
+      "run": "./converter",
+      "input": "2147483647 8",
+      "output": "17777777777",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "./converter",
+      "input": "990099 10",
+      "output": "990099",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "./converter",
+      "input": "43968 16",
+      "output": "ABC0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
