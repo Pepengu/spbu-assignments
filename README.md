@@ -1,9 +1,7 @@
 This repository contains all the assignments I have done while studuing at SpbSU.
 
 - Programming basics
-    - <details>
-<summary> Semester 1 </summary>
-
+    - <summary> Semester 1 </summary>
 1. [Hello](./programing-basics/semester1/hello)
 2. [A000328](./programing-basics/semester1/A000328)
 3. [Collatz conjecture](./programing-basics/semester1/collatz-conjecture)
@@ -17,7 +15,6 @@ This repository contains all the assignments I have done while studuing at SpbSU
 11. [Hex viewer](./programing-basics/semester1/hexviewer)
 12. [RLE](./programing-basics/semester1/RLE)
 
-</details>
 
     - Semester 2
     1. [Stock exchange data base](./programing-basics/semester2/stock-exchange)
