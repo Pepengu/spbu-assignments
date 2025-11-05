@@ -21,3 +21,5 @@ This repository contains all the assignments I have done while studuing at SpbSU
     1. [Compesser and Decompresser](./programing-basics/semester2/compress)
     1. [Boolean expressions calculator](./programing-basics/semester2/boolcalc)
     1. [Calculator for matricies of big integers with lisp-like syntax](./programing-basics/semester2/matrixlab)
+    - Semester 3
+    1. [Relation database with websokets communication](./programing-basics/semester3/DataBase)
