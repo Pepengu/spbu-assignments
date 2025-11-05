@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Num",
+      "setup": "unzip -q test.zip",
+      "run": "timeout 0.2 ./findsubstr \"/1656/\" log.txt",
+      "input": "",
+      "output": "54380",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Jorge",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr 37df7a98468d1f7a log.txt",
+      "input": "",
+      "output": "54381",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Alexandra",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr 407b7f337e1e61cc log.txt",
+      "input": "",
+      "output": "145041",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Denis",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr 63678a3245295d9b log.txt",
+      "input": "",
+      "output": "40147",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Short test",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr \"/res/\" log.txt",
+      "input": "",
+      "output": "314955",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Absent",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr \"1a1785d41eb28751\" log.txt",
+      "input": "",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Curious",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr \"7b0373ac13e5c904\" log.txt",
+      "input": "",
+      "output": "18",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Browser",
+      "setup": "",    
+      "run": "timeout 0.2 ./findsubstr \"AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.\" log.txt",
+      "input": "",
+      "output": "166",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Browser Kit",
+      "setup": "",    
+      "run": "timeout 0.2 ./findsubstr \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.0.2246 Yowser/2.5 Safari/537.37\" log.txt",
+      "input": "",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "py",
+      "setup": "",
+      "run": "timeout 0.2 ./findsubstr \"python\" log.txt",
+      "input": "",
+      "output": "298626",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
