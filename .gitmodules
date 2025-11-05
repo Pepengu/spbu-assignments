@@ -1,3 +1,6 @@
 [submodule "programing-basics/semester3/DataBase"]
 	path = programing-basics/semester3/DataBase
 	url = https://github.com/Pepengu/DataBase
+[submodule "web-technologies/GameWise"]
+	path = web-technologies/GameWise
+	url = https://github.com/Pepengu/GameWise
