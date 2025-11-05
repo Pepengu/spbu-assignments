@@ -1,7 +1,7 @@
 This repository contains all the assignments I have done while studuing at SpbSU.
 
 - Programming basics
-<details>
+    - <details>
 <summary> Semester 1 </summary>
 
 1. [Hello](./programing-basics/semester1/hello)
