@@ -35,7 +35,29 @@ This repository contains all the assignments I have done while studuing at SpbSU
 1. [Relation database with websokets communication](https://github.com/Pepengu/DataBase)
 
 </details>
-- Web technologies
-    1. [Online courses platform.](https://github.com/Pepengu/GameWise) Participated as a project manager and DevOps. 
-- Algorithms and data structures
-    1. [Partition](https://)
+
+## Web technologies
+
+1. [Online courses platform.](https://github.com/Pepengu/GameWise) Participated as a project manager and DevOps. 
+
+## Algorithms and data structures
+<details> 
+<summary> Semester 4 </summary>
+
+1. [Partition](./ads/partition)
+2. [Battle](./ads/battle)
+3. [Minmax](./ads/minmax)
+4. [Median](./ads/median)
+1. [Crossings](./ads/crossings)
+1. [Kth element](./ads/kth)
+1. [Kth element in a huge array](./ads/kth-huge-array)
+1. [LSD sort](./ads/lsd)
+1. [AA tree](./ads/aa-tree)
+1. [Is B-tree?](./ads/isbtree)
+1. [Hash table](./ads/hash-hash)
+1. [Priority queue](./ads/priorityqueue)
+1. [MST](./ads/MST)
+1. [Catch me if you can](./ads/catch-me)
+
+</details>
+
