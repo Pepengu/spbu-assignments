@@ -1,7 +1,7 @@
 This repository contains all the assignments I have done while studuing at SpbSU.
 
 - Programming basics
-    - \
+    -
 <details> 
 <summary> Semester 1 </summary>
 
@@ -18,7 +18,7 @@ This repository contains all the assignments I have done while studuing at SpbSU
 11. [Hex viewer](./programing-basics/semester1/hexviewer)
 12. [RLE](./programing-basics/semester1/RLE)
 
-<\details>
+</details>
 
 
     - Semester 2
