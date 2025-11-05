@@ -1,6 +1,6 @@
 This repository contains all the assignments I have done while studuing at SpbSU.
 
-# Programming basics
+## Programming basics
 <details> 
 <summary> Semester 1 </summary>
 
@@ -17,18 +17,20 @@ This repository contains all the assignments I have done while studuing at SpbSU
 11. [Hex viewer](./programing-basics/semester1/hexviewer)
 12. [RLE](./programing-basics/semester1/RLE)
 
+<summary> Semester 2 </summary>
+
+1. [Stock exchange data base](./programing-basics/semester2/stock-exchange)
+2. [Big integer class](./programing-basics/semester2/biginteger)
+3. [Post machine interpreter](./programing-basics/semester2/post-machine)
+4. [Compesser and Decompresser](./programing-basics/semester2/compress)
+5. [Boolean expressions calculator](./programing-basics/semester2/boolcalc)
+6. [Matrix laboratory](./programing-basics/semester2/matrixlab) -- interpreted language for wor
+
+<summary> Semester 3 </summary>
+
+1. [Relation database with websokets communication](https://github.com/Pepengu/DataBase)
+
 </details>
-
-
-    - Semester 2
-    1. [Stock exchange data base](./programing-basics/semester2/stock-exchange)
-    2. [Big integer class](./programing-basics/semester2/biginteger)
-    3. [Post machine interpreter](./programing-basics/semester2/post-machine)
-    4. [Compesser and Decompresser](./programing-basics/semester2/compress)
-    5. [Boolean expressions calculator](./programing-basics/semester2/boolcalc)
-    6. [Matrix laboratory](./programing-basics/semester2/matrixlab) -- interpreted language for wor
-    - Semester 3
-    1. [Relation database with websokets communication](https://github.com/Pepengu/DataBase)
 - Web technologies
     1. [Online courses platform.](https://github.com/Pepengu/GameWise) Participated as a project manager and DevOps. 
 - Algorithms and data structures
