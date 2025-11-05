@@ -17,7 +17,8 @@ This repository contains all the assignments I have done while studuing at SpbSU
 11. [Hex viewer](./programing-basics/semester1/hexviewer)
 12. [RLE](./programing-basics/semester1/RLE)
 
-
+</details> 
+<details> 
 <summary> Semester 2 </summary>
 
 1. [Stock exchange data base](./programing-basics/semester2/stock-exchange)
@@ -27,7 +28,8 @@ This repository contains all the assignments I have done while studuing at SpbSU
 5. [Boolean expressions calculator](./programing-basics/semester2/boolcalc)
 6. [Matrix laboratory](./programing-basics/semester2/matrixlab) -- interpreted language for wor
 
-
+</details> 
+<details> 
 <summary> Semester 3 </summary>
 
 1. [Relation database with websokets communication](https://github.com/Pepengu/DataBase)
