@@ -1,6 +1,8 @@
 This repository contains all the assignments I have done while studuing at SpbSU.
 
 - Programming basics
+<details>
+  <summary>Click to expand/collapse</summary>
     - Semester 1
         1. [Hello](./programing-basics/semester1/hello)
         2. [A000328](./programing-basics/semester1/A000328)
@@ -14,6 +16,7 @@ This repository contains all the assignments I have done while studuing at SpbSU
         10. [Roman Files](./programing-basics/semester1/romanfiles)
         11. [Hex viewer](./programing-basics/semester1/hexviewer)
         12. [RLE](./programing-basics/semester1/RLE)
+</details>
     - Semester 2
     1. [Stock exchange data base](./programing-basics/semester2/stock-exchange)
     2. [Big integer class](./programing-basics/semester2/biginteger)
