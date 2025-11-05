@@ -4,18 +4,18 @@ This repository contains all the assignments I have done while studuing at SpbSU
     - <details>
         <summary> Semester 1 </summary>
 
-    1. [Hello](./programing-basics/semester1/hello)
-    2. [A000328](./programing-basics/semester1/A000328)
-    3. [Collatz conjecture](./programing-basics/semester1/collatz-conjecture)
-    4. [Inverted tower](./programing-basics/semester1/inverted-tower)
-    5. [Converter](./programing-basics/semester1/converter)
-    6. [Roman](./programing-basics/semester1/roman)
-    7. [Day of week](./programing-basics/semester1/dayofweek)
-    8. [Snail](./programing-basics/semester1/snail)
-    9. [Matrix Labaratory](./programing-basics/semester1/matrixlab)
-    10. [Roman Files](./programing-basics/semester1/romanfiles)
-    11. [Hex viewer](./programing-basics/semester1/hexviewer)
-    12. [RLE](./programing-basics/semester1/RLE)
+        1. [Hello](./programing-basics/semester1/hello)
+        2. [A000328](./programing-basics/semester1/A000328)
+        3. [Collatz conjecture](./programing-basics/semester1/collatz-conjecture)
+        4. [Inverted tower](./programing-basics/semester1/inverted-tower)
+        5. [Converter](./programing-basics/semester1/converter)
+        6. [Roman](./programing-basics/semester1/roman)
+        7. [Day of week](./programing-basics/semester1/dayofweek)
+        8. [Snail](./programing-basics/semester1/snail)
+        9. [Matrix Labaratory](./programing-basics/semester1/matrixlab)
+        10. [Roman Files](./programing-basics/semester1/romanfiles)
+        11. [Hex viewer](./programing-basics/semester1/hexviewer)
+        12. [RLE](./programing-basics/semester1/RLE)
 
         </details>
     - Semester 2
